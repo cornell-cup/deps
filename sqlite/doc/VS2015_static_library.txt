@@ -1,0 +1,2 @@
+From the website SQLite distributes only a DLL. To convert it into a static library for Visual Studio 2015:
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\lib.exe" /DEF:sqlite/sqlite3.def /MACHINE:X64 /OUT:sqlite3.lib
